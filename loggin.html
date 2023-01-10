@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Log-in</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/loggin.css"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+
+    </head>
+
+    <body>
+
+        <div class="container">  
+            <div class="card">
+                <h1> Login </h1>
+                <div id="msgError"></div>
+
+                <div class="label-float">
+                    <input type="text" id="user" placeholder="" required>
+                    <label id="labelUser1" for="user">User Name</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="password1" placeholder="" required>
+                    <label id="labelPassword1" for="password">Password</label>
+                    <i id="key1" class="fa fa-eye" aria-hidden="true"></i>
+                </div>                  
+
+                <div class="justify-center">
+                    <button onclick="login()">Login</button>
+                </div>
+
+                <div class="justify-center">
+                    <hr>
+                </div>
+
+                <p> Don't have an account?
+                    <a href="/signup.html">Sign-up</a>
+                </p>       
+            </div>
+
+        </div>
+
+        <script src="/js/loggin.js"></script>
+    </body>
+
+</html>
